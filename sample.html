@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+        
+        }
+        .form-container{
+            background-color: rgb(255, 250, 244);
+            padding: 30px;
+            margin: auto;
+            width: 60% ;
+            margin-top: 9%;
+            border-radius: 5%;
+            box-shadow: 5px 3px 4px 3px rgb(177, 167, 167);
+        }
+
+        input{
+            position: relative;
+            padding: 5px;
+            width: 80%;
+            margin: 15px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <header>
+        <a href="index.html"> <img src="img/logo.png" class="logo" alt=""></a>
+        <ul>
+            <li><a href="index.html"> HOME </a></li>
+            <li><a href="products.html"> PRODUCTS </a></li>
+            <li><a href="privacypolicy.html"> PRIVACY POLICY </a></li>
+                  
+            
+        </ul>
+      </header>
+    
+
+    <div class="form-container">
+        <form action="">
+            <input type="text" name="firstname" placeholder="First Name"><br>
+            <input type="text" name="lastname" placeholder="Last Name"><br>
+            <input type="email" name="e-mail" placeholder="E-MAIL"><br>
+            <input type="tel" name="phoneno" id="" placeholder="Type in Phone number"><br>
+           <label for="choose"> Choose the Flavor you want</label>
+            <select name="drinks" id="flavors">
+                <option value="regular">500ml Stadium Regular</option>
+                <option value="orange">500ml Stadium Orange</option>
+                <option value="500cherry">500ml Stadium Cherry</option>
+                <option value="500apple">500ml Stadium Apple</option>
+                <option value="500mixed">500ml Stadium Mixed fruit</option>
+                <option value="orange">300ml Stadium Orange</option>
+                <option value="apple">300ml Stadium Orange</option>
+                <option value="cherry">300ml Stadium Cherry</option>
+                <option value="lime">300ml Stadium Lime</option>
+                <option value="300regular">500ml Stadium Regular</option>
+            </select><br>
+
+        <label for="comments"> Drop additional comments here<br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </label>
+       
+        
+        <input type="submit" placeholder="Order">
+    </form>
+  </div>
+    </section>
+</body>
+</html>
