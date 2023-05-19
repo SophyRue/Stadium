@@ -125,6 +125,11 @@ text-transform: uppercase;
     background-color:  #c0b2b5;
 }
 
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+
 /*content 2 styling */
 
 .content2{
